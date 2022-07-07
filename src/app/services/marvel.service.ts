@@ -13,7 +13,7 @@ export class MarvelService {
   getMarvel(){
     const query = {
       orderBy: "name",
-      ts: "3",
+      ts: "4",
       apikey: "bca2b2e49376fc42eadd2e72d4a2a664",
       hash: "a60ecccc5d6e46e19e31440d5d85ac5b"
     }
