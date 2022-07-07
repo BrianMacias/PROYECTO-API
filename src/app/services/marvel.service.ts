@@ -14,8 +14,8 @@ export class MarvelService {
     const query = {
       orderBy: "name",
       ts: "3",
-      apikey: "90364cada3d584c7581cb152668878db",
-      hash: "2b23700df09b66acb43c48577503494f"
+      apikey: "bca2b2e49376fc42eadd2e72d4a2a664",
+      hash: "a60ecccc5d6e46e19e31440d5d85ac5b"
     }
     return this.http.get(`${this.url}:443/v1/public/characters`, {params: query});
   }
